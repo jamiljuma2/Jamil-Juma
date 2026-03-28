@@ -1,8 +1,9 @@
+import React from "react";
 import SectionWrapper from "../components/SectionWrapper";
 import { SERVICES } from "../data/services";
 import { GlobeAltIcon, SparklesIcon, CodeBracketIcon, LightBulbIcon } from "@heroicons/react/24/outline";
 
-const ICONS: Record<string, JSX.Element> = {
+const ICONS: Record<string, React.ReactNode> = {
   GlobeAltIcon: <GlobeAltIcon className="w-8 h-8 text-green-600" />,
   SparklesIcon: <SparklesIcon className="w-8 h-8 text-green-600" />,
   CodeBracketIcon: <CodeBracketIcon className="w-8 h-8 text-green-600" />,
