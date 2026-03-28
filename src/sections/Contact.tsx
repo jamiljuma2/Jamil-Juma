@@ -4,24 +4,14 @@ import { SITE } from "../data/site.config";
 import { SOCIALS } from "../data/socials";
 import { useForm } from "react-hook-form";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-const containerStyle = {
-  width: "100%",
-  height: "250px",
-  borderRadius: "1rem",
-  marginTop: "1.5rem",
-};
+
 
 export default function Contact() {
   const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm();
-  const [mapLoaded, setMapLoaded] = useState(false);
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY", // Replace with your API key
-  });
+
 
   const onSubmit = async (data: any) => {
     // Placeholder: send data to email or API
@@ -57,18 +47,7 @@ export default function Contact() {
         </div>
         <div className="text-zinc-700 dark:text-zinc-200 text-sm">{SITE.email} &bull; {SITE.phone}</div>
       </div>
-      {/*
-      {isLoaded && (
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={{ lat: -1.2921, lng: 36.8219 }} // Replace with your location
-          zoom={12}
-          onLoad={() => setMapLoaded(true)}
-        >
-          <Marker position={{ lat: -1.2921, lng: 36.8219 }} />
-        </GoogleMap>
-      )}
-      */}
+
     </SectionWrapper>
   );
 }
