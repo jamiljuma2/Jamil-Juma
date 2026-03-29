@@ -4,7 +4,7 @@ export const PROJECTS = [
     description: "A platform connecting writers and students for academic and creative projects, featuring secure payments and real-time messaging.",
     image: "/images/edulinkwriters.png", // Use the provided screenshot as the image
     tech: ["Next.js", "Node.js", "PostgreSQL", "REST APIs", "Supabase"],
-    github: "https://github.com/jamiljuma2/marketplace", // Placeholder
+    github: "https://github.com/jamiljuma2/edulink", // Provided by user
     demo: "https://www.edulinkwriters.com",
     highlights: "Built scalable user authentication, integrated Supabase for real-time data, and optimized for high concurrency.",
   },
