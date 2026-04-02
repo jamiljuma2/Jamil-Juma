@@ -1,7 +1,7 @@
 import SectionWrapper from "../components/SectionWrapper";
 import { SKILLS } from "../data/skills";
 import { 
-  SiReact, SiNextdotjs, SiNodedotjs, SiTypescript, SiTailwindcss, SiDjango, SiFramer, SiMongodb, SiPostgresql, SiFigma, SiPython, SiJavascript, SiMysql, SiPostman 
+  SiReact, SiNextdotjs, SiNodedotjs, SiTypescript, SiTailwindcss, SiDjango, SiFramer, SiMongodb, SiPostgresql, SiFigma, SiPython, SiJavascript, SiMysql, SiPostman, SiSupabase, SiFirebase 
 } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 import type React from "react";
@@ -20,6 +20,8 @@ const ICONS: Record<string, React.ReactElement> = {
   postgresql: <SiPostgresql className="text-blue-800" />,
   sql: <FaDatabase className="text-indigo-500" />,
   restapi: <SiPostman className="text-orange-500" />,
+  supabase: <SiSupabase className="text-emerald-500" />,
+  firebase: <SiFirebase className="text-amber-500" />,
   figma: <SiFigma className="text-pink-400" />,
 };
 

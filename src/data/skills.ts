@@ -12,5 +12,7 @@ export const SKILLS = [
   { name: "PostgreSQL", icon: "postgresql", level: 75 },
   { name: "SQL", icon: "sql", level: 80 },
   { name: "REST APIs", icon: "restapi", level: 85 },
+  { name: "Supabase", icon: "supabase", level: 80 },
+  { name: "Firebase", icon: "firebase", level: 75 },
   { name: "Figma", icon: "figma", level: 70 },
 ];
