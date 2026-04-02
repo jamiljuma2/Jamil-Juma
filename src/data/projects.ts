@@ -18,12 +18,12 @@ export const PROJECTS = [
     highlights: "Designed a scalable architecture, implemented interactive charts, and managed state with Zustand for a seamless user experience.",
   },
   {
-    title: "Betting Platform Web Application",
-    description: "A robust web app for sports betting with live odds, user management, and transaction tracking.",
-    image: "/images/betting-platform.png", // Placeholder, add this image to public/images
+    title: "Online Restaurant Web Application",
+    description: "A modern web app for browsing menus, placing orders, and managing restaurant reservations with a smooth customer experience.",
+    image: "/images/restaurant.png", // Placeholder, add this image to public/images
     tech: ["React.js", "Node.js", "PostgreSQL", "REST APIs", "Supabase"],
-    github: "https://github.com/jamiljuma2/ApexBet", // Provided by user
-    demo: "https://betting-platform-demo.com", // Placeholder
-    highlights: "Implemented secure payment flows, real-time odds updates, and scalable backend architecture.",
+    github: "https://github.com/jamiljuma2", // Provided by user
+    demo: "https://cafe-pi-ivory.vercel.app",
+    highlights: "Implemented menu browsing, reservation flows, and a scalable backend architecture for smooth ordering.",
   },
 ];
