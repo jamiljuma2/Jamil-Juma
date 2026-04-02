@@ -19,7 +19,7 @@ export default function Hero() {
             alt="Hero background"
             fill
             priority
-            className="object-cover opacity-30"
+            className="object-cover object-top opacity-30"
           />
           <div className="absolute inset-0 bg-slate-950/40" />
         </div>
