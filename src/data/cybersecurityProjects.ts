@@ -39,6 +39,6 @@ export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
     description:
       "Detects phishing emails, URLs, and SMS messages to protect users from social engineering attacks.",
     tools: ["Machine Learning", "NLP", "Email Security", "URL Analysis"],
-    demo: "https://phishguard-huuy.onrender.com",
+    demo: "https://phishguard-ochre.vercel.app",
   },
 ];
