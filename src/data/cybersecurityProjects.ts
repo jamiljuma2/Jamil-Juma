@@ -26,12 +26,13 @@ export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
     github: "https://github.com/jamiljuma2",
   },
   {
-    title: "SIEM Detection and Incident Triage",
-    category: "Blue Team",
+    title: "Burpsite- Web Security Testing Tool",
+    category: "Web Security",
     description:
-      "Built detection rules, investigated suspicious events, and produced incident timelines with containment recommendations.",
-    tools: ["Wazuh", "Elastic SIEM", "Sysmon", "Kibana"],
+      "A comprehensive web application security testing tool that performs automated vulnerability scanning, manual testing, and generates detailed security reports.",
+    tools: ["Burp Suite", "Web Scanning", "Vulnerability Detection", "Security Reporting"],
     github: "https://github.com/jamiljuma2",
+    demo: "https://burpsite.vercel.app",
   },
   {
     title: "Phishguard",
